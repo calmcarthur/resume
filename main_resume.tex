@@ -1,0 +1,211 @@
+%---------------------------
+% Author : Cal McArthur
+% Based off of: https://github.com/jakegut/resume
+%---------------------------
+
+%----------BASE-------------
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\setlength{\footskip}{4.08003pt}
+\input{glyphtounicode}
+
+%----------COLOUR----------
+\definecolor{main}{rgb}{0.24, 0.46, 0.44}
+
+%----------FONT------------
+ \usepackage[default]{sourcesanspro}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% ---------MARGINS-----------
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+%-----------ATS-------------
+\pdfgentounicode=1
+
+%--------SECTIONS-----------
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%--------COMMANDS----------
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textcolor{main}{\Huge \scshape Cal Edward McArthur} \\ \vspace{4pt}
+    \small \raisebox{-0.1\height}\faPhone\ 705-229-9050 ~ \href{mailto:c3mcarth@uwaterloo.ca}{\raisebox{-0.2\height}\faEnvelope\  \underline{\textcolor{main}{c3mcarth@uwaterloo.ca}}} ~ 
+    \href{https://linkedin.com/in/calmcarthur/}{\raisebox{-0.2\height}\faLinkedin\ \underline{\textcolor{main}{linkedin.com/in/calmcarthur}}}  ~
+    \href{https://github.com/calmcarthur}{\raisebox{-0.2\height}\faGithub\ \underline{\textcolor{main}{github.com/calmcarthur}}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------SKILLS-----------
+\section{\textcolor{main}{Skills}}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C++, Python, C, Typescript, Javascript, Embedded C, HTML, CSS, SQL, VHDL} \\
+     \textbf{Technologies}{: React.js, React Native, Next.js, Node.js, Express.js, Flutter, Firebase, MongoDB, FreeRTOS, Arduino} \\
+     \textbf{Tools}{: Git, Linux, Unix, Docker, Jenkins, QT, STM32, Figma, Bash, XCode, Visual Studio, Figma} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EXPERIENCE-----------
+% See anmols, chimeneras and annas resume for experience and project points
+\section{\textcolor{main}{Experience}}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {BlackBerry Inc}{Sept -- Dec 2022}
+      {Applications Software Developer}{Waterloo, ON}
+      \resumeItemListStart
+        \resumeItem{Worked on a C++ networking application from the ground up including requirements, architecture and development to improve security overall}
+        \resumeItem{Developed in Typescript for the full stack application that provides increased security for all user across the board.
+        }
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Deep Trekker Inc}{Jan -- April 2022}
+      {Test and Development Engineer}{Kitchener, ON}
+      \resumeItemListStart
+        \resumeItem{Developed embedded C code for STM microcontrollers. Contributed to the development of an expandable automated testing system in C/C++. Performed hardware and software testing for 7+ underwater ROV's.}
+        \resumeItem{Wrote system and unit level software test in C++ and Python and developed embedded C code for STM32 microcontrollers}
+        \resumeItem{Performed hands-on testing for 7+ underwater remotely operated vehicle while addressing software and hardware bugs}
+        \resumeItem{Collaborated with team members to develop and expandable and efficient automated testing system in C++ for use in an agile SCRUM framework}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Interact Rotary Club}{Sept 2018 -- August 2021}
+      {President}{Barrie, ON}
+      \resumeItemListStart
+        \resumeItem{Managed a group of 20+ young adults and fundraised \$9,000+ over 4 years for various charity foundations in Ontario}
+        \resumeItem{Organized charitable events, guests speakers, and the construction of a wash station for an underdeveloped community in Cambodia.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{\textcolor{main}{Projects}}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+          
+    \resumeProjectHeading
+          {\textbf{Hack Harvard - The Crimson Cube} $|$ \emph{Typescript, Next.js, Firebase, TailwindCSS, C, Arduino, OnShape, Figma, Electrical}}{October 2022}
+          \resumeItemListStart
+            \resumeItem{Developed and pitched a communication aid for children with speaking issues that aids them in their expressions of emotion; the project included a SLS 3D printed toy, a wired Arduino that sent 4 different sensor's data to a Firebase databse, and a live website displaying this data}
+            \resumeItem{Led all backend architecture and design. Created the datase functionality on both the Arduino and web application}
+            \resumeItem{Worked on front-end design and had an impact on design ideas}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+    \resumeProjectHeading
+          {\textbf{Automed Testing Framework} $|$ \emph{C++, C, Google Test, STM32 Applications, fff}}{April 2022}
+          \resumeItemListStart
+            \resumeItem{Researched, developed, and implemented a C++ software test framework for a team of 20+ developers on STM32 Microcontrollers}
+            \resumeItem{Integrated GoogleTest and a fake function framework, utilizing the FreeRTOS kernal and a publish-suscriber messaging system}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+
+    \resumeProjectHeading
+          {\textbf{Basketball Stat Tracking Software} $|$ \emph{Python, Pandas, NumPy, Matplotlib}}{Nov 2022}
+          \resumeItemListStart
+            \resumeItem{Developed a Python program to track and compare personal basketball statistics with proffesional player data fetched from the NBA API}
+            \resumeItem{Utilized NumPy and Matplotlib to filter and display player data}
+            \resumeItem{Accurately tracker an increase in shooting statistics of 15\% over two weeks.}
+          \resumeItemListEnd 
+
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+%-----------EDUCATION-----------
+\section{\textcolor{main}{Education}}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Waterloo}{Sep. 2021 -- Present}
+      {Canidadate for BASc in Systems Design Engineering}{Waterloo, Ontario}
+      \resumeItemListStart
+      \resumeItem{GPA: 86.22/100}
+      \resumeItem{Awards: President's Scholarship of Distinction, Leslie Klein Engineering Scholarship}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+
+%-----------INTERESTS-----------
+\section{\textcolor{main}{Interests}}
+ \begin{itemize}[leftmargin=0in, label={}]
+    \item{Running (Anywhere, but forests take the cake), Reading (Lord of the Rings is my favourite), Basketball (Shooting balls), Mountain Biking (Hope to ride Whistler one day), Creative Writing (Whatever pops in my head)}
+    % camping, sports, food, activity (all examples), favourite restaurant, something intellectual, lord of the rings, counte of monte, old man and the sea, of mice and men, movie, authors/directors, 
+ \end{itemize}
+ \vspace{-16pt}
+
+\end{document}
