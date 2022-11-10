@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1667964239 "c:/Users/mcart/Documents/code_repos/resume/main_resume.tex" "main_resume.pdf" "main_resume" 1667964240
+["pdflatex"] 1668041625 "c:/Users/mcart/Documents/code_repos/resume/main_resume.tex" "main_resume.pdf" "main_resume" 1668041626
   "C:/Users/mcart/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1667964179 161731 aa1c67dd5ba998eb06c6b068af3c2963 ""
   "C:/Users/mcart/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1667964066 10788373 3c04d19bb80cfb8fdf1b66021b74e56a ""
   "C:/Users/mcart/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -125,9 +125,9 @@
   "C:/Users/mcart/AppData/Local/Programs/MiKTeX/tex/latex/tools/verbatim.sty" 1654690828 7392 6cb60c76983625ab7344d128dbcdd881 ""
   "C:/Users/mcart/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/mcart/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/mcart/Documents/code_repos/resume/main_resume.tex" 1667964237 9131 0be5c5cd5d603100c0f38c45ad4b8a2e ""
-  "main_resume.aux" 1667964240 1256 ee14263d6ca09c0112b2d646293144d8 "pdflatex"
-  "main_resume.out" 1667964240 425 24d2d1e5a24a3758f71a5a285aa9cf48 "pdflatex"
+  "c:/Users/mcart/Documents/code_repos/resume/main_resume.tex" 1668041624 9137 5d6fda1aaa219976b3ddd6a9ec7a217f ""
+  "main_resume.aux" 1668041626 1256 ee14263d6ca09c0112b2d646293144d8 "pdflatex"
+  "main_resume.out" 1668041626 425 24d2d1e5a24a3758f71a5a285aa9cf48 "pdflatex"
   (generated)
   "main_resume.aux"
   "main_resume.log"
