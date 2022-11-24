@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  23 NOV 2022 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.11.20)  23 NOV 2022 22:48
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -455,41 +455,41 @@ Package: xparse 2022-01-12 L3 Experimental document command parser
 ) (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-generic-helper.sty
 Package: fontawesome5-generic-helper 2021/06/04 v5.15.3 non-uTeX helper for fontawesome5
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/fontawesome5-mapping.def))) (/usr/share/texlive/texmf-dist/tex/generic/pdftex/glyphtounicode.tex)
-LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TLF on input line 84.
+LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TLF on input line 79.
  (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-TLF.fd
 File: T1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for T1/SourceSansPro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 84.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 79.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 84.
+(Font)              scaled to size 10.95pt on input line 79.
  (./main_resume.aux)
 \openout1 = `main_resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 84.
-LaTeX Font Info:    ... okay on input line 84.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 84.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 84.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 79.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 79.
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 84.
+LaTeX Font Info:    ... okay on input line 79.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count286
@@ -504,7 +504,7 @@ LaTeX Font Info:    ... okay on input line 84.
 \makeMPintoPDFobject=\count291
 \everyMPtoPDFconversion=\toks27
 )
-Package hyperref Info: Link coloring OFF on input line 84.
+Package hyperref Info: Link coloring OFF on input line 79.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -514,108 +514,108 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count292
 )
-LaTeX Info: Redefining \ref on input line 84.
-LaTeX Info: Redefining \pageref on input line 84.
-LaTeX Info: Redefining \nameref on input line 84.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
  (./main_resume.out) (./main_resume.out)
 \@outlinefile=\write3
 \openout3 = `main_resume.out'.
 
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 88.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 83.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 88.
+(Font)              scaled to size 24.88pt on input line 83.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 88.
+(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 83.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
-(Font)              scaled to size 24.88pt on input line 88.
+(Font)              scaled to size 24.88pt on input line 83.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 89.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 84.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 10.0pt on input line 89.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 89.
+(Font)              scaled to size 10.0pt on input line 84.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 84.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 91.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 86.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomefree1.fd)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 91.
+(Font)              <7> on input line 86.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 91.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 91.
+(Font)              <5> on input line 86.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 86.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 93.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 88.
  (/usr/share/texlive/texmf-dist/tex/latex/fontawesome5/ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 93.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 88.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 100.
+(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
-(Font)              scaled to size 10.95pt on input line 100.
+(Font)              scaled to size 10.95pt on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 100.
+(Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
-(Font)              scaled to size 12.0pt on input line 100.
+(Font)              scaled to size 12.0pt on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/sc' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/sc' on input line 100.
+(Font)              `T1/SourceSansPro-TLF/bold/sc' on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/sc' will be
-(Font)              scaled to size 12.0pt on input line 100.
+(Font)              scaled to size 12.0pt on input line 95.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 103.
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 98.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 10.0pt on input line 103.
+(Font)              scaled to size 10.0pt on input line 98.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 116.
+(Font)              <10.95> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 116.
+(Font)              <8> on input line 110.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 116.
+(Font)              <6> on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 116.
+(Font)              `T1/SourceSansPro-TLF/regular/it' on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
-(Font)              scaled to size 10.0pt on input line 116.
+(Font)              scaled to size 10.0pt on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/b/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 116.
+(Font)              `T1/SourceSansPro-TLF/bold/n' on input line 110.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/bold/n' will be
-(Font)              scaled to size 10.95pt on input line 116.
+(Font)              scaled to size 10.95pt on input line 110.
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 116--118
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 110--112
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 126--128
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 120--122
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 137--139
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 131--133
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 152--154
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 146--148
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 162--164
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 156--158
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 171--173
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 165--167
 []  
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 186--190
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 181--185
 [] 
  []
 
 
-Overfull \hbox (0.55968pt too wide) in paragraph at lines 190--192
+Overfull \hbox (0.55968pt too wide) in paragraph at lines 185--187
 []  
  []
 
@@ -628,7 +628,7 @@ Package rerunfilecheck Info: File `main_resume.out' has not changed.
 Here is how much of TeX's memory you used:
  14463 strings out of 480171
  251552 string characters out of 5894488
- 554694 words of memory out of 5000000
+ 554690 words of memory out of 5000000
  32215 multiletter control sequences out of 15000+600000
  569277 words of font info for 64 fonts, out of 8000000 for 9000
  59 hyphenation exceptions out of 8191
