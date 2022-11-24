@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1668976282 "/home/cal/code_repos/resume/main_resume.tex" "main_resume.pdf" "main_resume" 1668976282
+["pdflatex"] 1669261249 "/home/cal/code_repos/resume/main_resume.tex" "main_resume.pdf" "main_resume" 1669261250
   "/etc/texmf/web2c/texmf.cnf" 1668971094 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/cal/code_repos/resume/main_resume.tex" 1668976281 8926 623eb2568b728b1282acc8f2e4162649 ""
+  "/home/cal/code_repos/resume/main_resume.tex" 1669261249 8335 5a1714a1c923cc0e346c953664eace37 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc" 1622837620 2906 e48aa7c95dea478a2e011bcb4f7878c9 ""
@@ -40,7 +40,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb" 1587936753 263595 c7d0bf539613db43888d746e8e621f5b ""
   "/usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb" 1587936753 336785 795f953d37ac49dd5bce485becd006cc ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb" 1248133631 32587 1788b0c1c5b39540c96f5e42ccd6dae8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb" 1622837620 203772 82039ef03d29e9367f3c76d0cf70d10c ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb" 1622837620 295383 425769cf436959e0c2b23bd6a2316a48 ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Bold-tlf-sc-t1.vf" 1587936753 1716 f89f295ef219aa31fe00661c5518701b ""
@@ -127,9 +126,9 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1668976251 4073795 a82a847ac97773bf4a607ab050efa3a1 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1668976120 1436022 8dd91a086f648165abc5600495ba4b48 ""
-  "main_resume.aux" 1668976282 1388 eca9d05068ee2b70335e186227d444c6 "pdflatex"
-  "main_resume.out" 1668976282 425 24d2d1e5a24a3758f71a5a285aa9cf48 "pdflatex"
-  "main_resume.tex" 1668976281 8926 623eb2568b728b1282acc8f2e4162649 ""
+  "main_resume.aux" 1669261250 1388 8a427eb706eeb1ed8644e16684de130d "pdflatex"
+  "main_resume.out" 1669261250 425 24d2d1e5a24a3758f71a5a285aa9cf48 "pdflatex"
+  "main_resume.tex" 1669261249 8335 5a1714a1c923cc0e346c953664eace37 ""
   (generated)
   "main_resume.aux"
   "main_resume.log"
