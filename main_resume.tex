@@ -1,9 +1,9 @@
 %-------------------------------
 % Author : Cal McArthur
-% Based off of: https://github.com/jakegut/resume
+% Based off: https://github.com/jakegut/resume
 %-------------------------------
 
-%-----------BASE-------------
+%------------BASE---------------
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{fancyhdr}
@@ -29,6 +29,8 @@
 \usepackage{fontawesome5}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \fancyfoot{}
 \pagestyle{fancy}
@@ -58,22 +60,23 @@
   {}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
 
 %-----------COMMANDS------------
-\newcommand{\resumeItem}[1]{
+\newcommand{\subItem}[1]{
   \item\small{{#1 \vspace{-2pt}}}}
 
 \newcommand{\classesList}[4]{
   \item\small{{#1 #2 #3 #4 \vspace{-2pt}}}}
 
-\newcommand{\resumeSubHeading}[2]{
+\newcommand{\subHeading}[2]{
   \vspace{-5pt}\item
   \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
-    \small#1 & \textbf{\small #2} \\
+    \small#1 & \textbf{\small #2} 
+    \setlength{\parskip}{6pt}
   \end{tabular*}\vspace{-7pt}}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}}
-\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\subHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\subHeadingListEnd}{\end{itemize}}
+\newcommand{\subItemListStart}{\begin{itemize}}
+\newcommand{\subItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 %-------------------------------
 \begin{document}
@@ -81,13 +84,13 @@
 %------------HEADING------------
 \begin{center}
   \textcolor{main}{\Huge\scshape Cal Edward McArthur} \\ \vspace{4pt}
-  \small\raisebox{-0.1\height}\faPhone\ 705-229-9050 ~
   \href{mailto:c3mcarth@uwaterloo.ca}{\raisebox{-0.2\height}\faEnvelope\
     \underline{\textcolor{main}{c3mcarth@uwaterloo.ca}}} ~
   \href{https://linkedin.com/in/calmcarthur/}{\raisebox{-0.2\height}\faLinkedin\
-    \underline{\textcolor{main}{linkedin.com/in/calmcarthur}}}  ~
+    \underline{\textcolor{main}{linkedin.com/in/calmcarthur}}} ~
   \href{https://github.com/calmcarthur}{\raisebox{-0.2\height}\faGithub\
-    \underline{\textcolor{main}{github.com/calmcarthur}}}
+    \underline{\textcolor{main}{github.com/calmcarthur}}} ~
+  \small\raisebox{-0.1\height}\faPhone\ 705-229-9050
   \vspace{-8pt}
 \end{center}
 
@@ -96,106 +99,106 @@
  \begin{itemize}[leftmargin=0in, label={}]
     \small{\item{
     \textbf{Languages}{: C++, Python, C, Typescript, Javascript, Embedded C, HTML, CSS, SQL, VHDL} \\
-    \textbf{Technologies}{: React.js, React Native, Next.js, Node.js, Express.js, Flutter, Firebase, MongoDB, FreeRTOS, Arduino} \\
+    \textbf{Technologies}{: React.js, Next.js, Node.js, Express.js, Flutter, Firebase, MongoDB, MySQL, SQLite, FreeRTOS, Arduino} \\
     \textbf{Tools}{: Git, Linux, Unix, Docker, Jenkins, QT, STM32, Figma, Bash, XCode, Visual Studio, Figma}}}
   \end{itemize}
 \vspace{-21pt}
 
 %-----------EXPERIENCE----------
 \section{\textcolor{main}{Experience}}
-  \resumeSubHeadingListStart
+  \subHeadingListStart
 
-    \resumeSubHeading
+    \subHeading
       {\textbf{BlackBerry Inc} $|$ \emph{Applications Software Developer}}
       {Sept - Dec 2022}
-    \resumeItemListStart
-      \resumeItem{Worked on a C++ networking application from the ground up including requirements, architecture and development to improve security overall}
-      \resumeItem{Developed in Typescript for the full stack application that provides increased security for all user across the board.
-      }
-    \resumeItemListEnd
+    \subItemListStart
+      \subItem{Lead development of a full stack C++ application by implementing and designing software architecture and a process to manage NAT event reporting from the linux kernel, to be displayed on a TypeScript front-end}
+      \subItem{Built a system that allows an admin access to the source IP and ports for TCP and UDP flows through their network, while focusing on maximizing throughput when persisting network events}
+      \subItem{Created a RESTful API for a sqlite3 database interface, and various processes for storing and interaction with the data}
+      \subItem{Added various features such as JSON web keys, JSON web tokens enrollment lifetimes and password bypasses functionality to improve overall runtime efficiency for the BlackBerry Cyclance Gateway application}
+      \subItem{Developed a cross-team feature improvement,by changing web servers from HTTP to HTTPS and implementing stricter TLS certificate approvals, increasing endpoint security by 30\% and ensuring a timely release}
+    \subItemListEnd
     \vspace{-13pt}
 
-    \resumeSubHeading
-      {\textbf{Deep Trekker Inc} $|$ \emph{Test and Development Engineer}}
+    \subHeading
+      {\textbf{Deep Trekker Inc} $|$ \emph{Test and Development Intern}}
       {Jan - April 2022}
-    \resumeItemListStart
-      \resumeItem{Developed embedded C code for STM microcontrollers. Contributed to the development of an expandable automated testing system in C/C++. Performed hardware and software testing for 7+ underwater ROV's.}
-      \resumeItem{Wrote system and unit level software test in C++ and Python and developed embedded C code for STM32 microcontrollers}
-      \resumeItem{Performed hands-on testing for 7+ underwater remotely operated vehicle while addressing software and hardware bugs}
-      \resumeItem{Collaborated with team members to develop and expandable and efficient automated testing system in C++ for use in an agile SCRUM framework}
-    \resumeItemListEnd
+    \subItemListStart
+      \subItem{Developed embedded C code for STM microcontrollers, improving network security, diagnostic messaging, and PCB information reporting across the front and back-end interfaces for 4+ remotely operated vehicles}
+      \subItem{Collaborated with team members to develop an expandable and efficient automated testing system using the capabilites of the FreeRTOS kernel, GoogleTest and a fake function framework, for use in an agile SCRUM environment}
+      \subItem{Performed hands-on testing for 7+ underwater ROV's and their controllers, while addressing software and hardware bugs}
+      \subItem{Wrote system and unit level tests in C++ and Python, communicating with a team of developers on strategies to rectify these bugs}
+    \subItemListEnd
     \vspace{-13pt}
 
-    \resumeSubHeading
+    \subHeading
       {\textbf{Interact Rotary Club} $|$ \emph{President}}
       {Sept 2018 - August 2021}
-    \resumeItemListStart
-      \resumeItem{Managed a group of 20+ young adults and fundraised \$9,000+ over 4 years for various charity foundations in Ontario}
-      \resumeItem{Organized charitable events, guests speakers, and the construction of a wash station for an underdeveloped community in Cambodia.}
-    \resumeItemListEnd
+    \subItemListStart
+      \subItem{Managed a group of 20+ young adults and fundraised \$9,000+ over 4 years for various charity foundations in Ontario}
+      \subItem{Organized charitable events, guests speakers, and the construction of a wash station for an underdeveloped community in Cambodia}
+    \subItemListEnd
 
-  \resumeSubHeadingListEnd
+  \subHeadingListEnd
 \vspace{-18pt}
 
 %-----------PROJECTS------------
 \section{\textcolor{main}{Projects}}
-  \resumeSubHeadingListStart
+  \subHeadingListStart
 
-    \resumeSubHeading
+    \subHeading
       {\textbf{Hack Harvard - The Crimson Cube} $|$ \emph{Typescript, Next.js, Firebase, TailwindCSS, C, Arduino, OnShape, Figma, Electrical}}
       {October 2022}
-    \resumeItemListStart
-      \resumeItem{Developed and pitched a communication aid for children with speaking issues that aids them in their expressions of emotion; the project included a SLS 3D printed toy, a wired Arduino that sent 4 different sensor's data to a Firebase databse, and a live website displaying this data}
-      \resumeItem{Led all backend architecture and design. Created the datase functionality on both the Arduino and web application}
-      \resumeItem{Worked on front-end design and had an impact on design ideas}
-    \resumeItemListEnd
+    \subItemListStart
+      \subItem{Developed and pitched an IoT communication aid for children with speaking issues that allows them to express their emotions implicitly; the project included a SLS 3D printed toy, a wired Arduino that sent sensor data to a Firebase database, and a live interactive website}
+      \subItem{Led all backend architecture and process design by implementing data packaging and sending on the Arduino, an API on the web application, and informatics to display sensor data in a clear and comprehensive manner for the user}
+      \subItem{Collaborated on front-end design in Typescript and had an impact on overall design choice for the project}
+    \subItemListEnd
     \vspace{-13pt}
 
-    \resumeSubHeading
+    \subHeading
       {\textbf{Automed Testing Framework} $|$ \emph{C++, C, Google Test, STM32 Applications, fff}}
       {April 2022}
-    \resumeItemListStart
-      \resumeItem{Researched, developed, and implemented a C++ software test framework for a team of 20+ developers on STM32 Microcontrollers}
-      \resumeItem{Integrated GoogleTest and a fake function framework, utilizing the FreeRTOS kernal and a publish-suscriber messaging system}
-    \resumeItemListEnd
+    \subItemListStart
+      \subItem{Researched, developed, and implemented a software test framework for a team of 20+ developers on STM32 microcontrollers}
+      \subItem{Integrated GoogleTest and a fake function framework, utilizing the FreeRTOS kernel and a publish-suscriber messaging system}
+    \subItemListEnd
     \vspace{-13pt}
 
-    \resumeSubHeading
+    \subHeading
       {\textbf{Basketball Stat Tracking Software} $|$ \emph{Python, Pandas, NumPy, Matplotlib}}
       {Nov 2022}
-    \resumeItemListStart
-      \resumeItem{Developed a Python program to track and compare personal basketball statistics with proffesional player data fetched from the NBA API}
-      \resumeItem{Utilized NumPy and Matplotlib to filter and display player data}
-      \resumeItem{Accurately tracker an increase in shooting statistics of 15\% over two weeks.}
-    \resumeItemListEnd
+    \subItemListStart
+      \subItem{Developed a Python program to track and compare personal basketball statistics against professional player data fetched from the NBA API; utilized NumPy and Matplotlib to filter and display the player data}
+      \subItem{Accurately tracked an increase in shooting statistics of 15\% over two weeks of training}
+    \subItemListEnd
 
-  \resumeSubHeadingListEnd
+  \subHeadingListEnd
 \vspace{-18pt}
 
 %-----------EDUCATION-----------
 \section{\textcolor{main}{Education}}
-  \resumeSubHeadingListStart
+  \subHeadingListStart
 
-    \resumeSubHeading
+    \subHeading
       {\textbf{University of Waterloo}}
       {Sep 2021 -- Present}
       \vspace{-25pt}
-    \resumeSubHeading
+    \subHeading
       {\emph{Canidadate for BASc in Systems Design Engineering}}
       {\normalfont{\emph{Waterloo, Ontario}}}
-    \resumeItemListStart
-    \resumeItem{GPA: 86.22/100}
-    \resumeItem{Awards: President's Scholarship of Distinction, Leslie Klein Engineering Scholarship}
-    \resumeItemListEnd
+    \subItemListStart
+    \subItem{GPA: 86.22/100}
+    \subItem{Awards: President's Scholarship of Distinction, Leslie Klein Engineering Scholarship}
+    \subItemListEnd
 
-  \resumeSubHeadingListEnd
+  \subHeadingListEnd
 \vspace{-18pt}
 
 %-----------INTERESTS-----------
 \section{\textcolor{main}{Interests}}
   \begin{itemize}[leftmargin=0in, label={}]
-    \item{Running (Anywhere, but forests take the cake), Reading (Lord of the Rings is my favourite), Basketball (Shooting balls), Mountain Biking (Hope to ride Whistler one day), Creative Writing (Whatever pops in my head)}
-    % camping, sports, food, activity (all examples), favourite restaurant, something intellectual, lord of the rings, counte of monte, old man and the sea, of mice and men, movie, authors/directors,
+    \item{Stories by John Steinbeck and Tolkien, running and mountian biking, Jack Nicholson movies, learning about space, shooting basketballs, stick and puck, backcountry camping in the wilderness, and writing whatever comes to mind}
   \end{itemize}
 \vspace{-16pt}
 
